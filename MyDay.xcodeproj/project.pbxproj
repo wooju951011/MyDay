@@ -16,6 +16,8 @@
 		361C77EA29820ED600B8898B /* MyDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C77E929820ED600B8898B /* MyDayTests.swift */; };
 		361C77F429820ED600B8898B /* MyDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C77F329820ED600B8898B /* MyDayUITests.swift */; };
 		361C77F629820ED600B8898B /* MyDayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C77F529820ED600B8898B /* MyDayUITestsLaunchTests.swift */; };
+		361C78042982155800B8898B /* AppLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C78022982155800B8898B /* AppLoginVC.swift */; };
+		361C78052982155800B8898B /* AppLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 361C78032982155800B8898B /* AppLoginVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		361C77EF29820ED600B8898B /* MyDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		361C77F329820ED600B8898B /* MyDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDayUITests.swift; sourceTree = "<group>"; };
 		361C77F529820ED600B8898B /* MyDayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		361C78022982155800B8898B /* AppLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLoginVC.swift; sourceTree = "<group>"; };
+		361C78032982155800B8898B /* AppLoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppLoginVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		361C77D129820ED500B8898B /* MyDay */ = {
 			isa = PBXGroup;
 			children = (
+				361C78062982155C00B8898B /* Main */,
 				361C77D229820ED500B8898B /* AppDelegate.swift */,
 				361C77D429820ED500B8898B /* SceneDelegate.swift */,
 				361C77D629820ED500B8898B /* ViewController.swift */,
@@ -125,6 +130,15 @@
 				361C77F529820ED600B8898B /* MyDayUITestsLaunchTests.swift */,
 			);
 			path = MyDayUITests;
+			sourceTree = "<group>";
+		};
+		361C78062982155C00B8898B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				361C78022982155800B8898B /* AppLoginVC.swift */,
+				361C78032982155800B8898B /* AppLoginVC.xib */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +247,7 @@
 			files = (
 				361C77DF29820ED600B8898B /* LaunchScreen.storyboard in Resources */,
 				361C77DC29820ED600B8898B /* Assets.xcassets in Resources */,
+				361C78052982155800B8898B /* AppLoginVC.xib in Resources */,
 				361C77DA29820ED500B8898B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +275,7 @@
 			files = (
 				361C77D729820ED500B8898B /* ViewController.swift in Sources */,
 				361C77D329820ED500B8898B /* AppDelegate.swift in Sources */,
+				361C78042982155800B8898B /* AppLoginVC.swift in Sources */,
 				361C77D529820ED500B8898B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
